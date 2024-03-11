@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 	int main() {
-    printf("Informe a largura: ");
+	printf("Informe a largura: ");
     float largura;
     scanf("%f", &largura);
 
@@ -10,7 +10,6 @@
     float profundidade;
     scanf("%f", &profundidade);
 
-    printf("A area da sala e de: %.2f\n", largura * profundidade);
-
+	printf("O terreno possui %.4f hectares", (largura * profundidade) / 10000);
     return 0;
 }
